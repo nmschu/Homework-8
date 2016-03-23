@@ -15,7 +15,7 @@ using Homework8.Models;
 
 namespace Homework8.Controllers
 {
-    [Authorize]
+    // [Authorize]      use this to make the manage tab require log in
     public class PetsController : Controller
     {
         private PetContext db = new PetContext();
