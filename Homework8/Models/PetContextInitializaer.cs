@@ -7,7 +7,7 @@ using System.Web;
 
 namespace Homework8.Models
 {
-    public class PetContextInitializaer : DropCreateDatabaseAlways<PetContext>
+    public class PetContextInitializaer : DropCreateDatabaseIfModelChanges<PetContext>
     {
         protected override void Seed(PetContext context)
         {
