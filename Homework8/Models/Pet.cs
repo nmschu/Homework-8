@@ -9,7 +9,8 @@ namespace Homework8.Models
     public class Pet
     {
         public Int32 PetID { get; set; }
-
+        
+        [DataType(DataType.ImageUrl)]
         public String Picture { get; set; }  //added for image
 
         public String Breed { get; set; }

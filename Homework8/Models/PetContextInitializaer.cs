@@ -14,7 +14,7 @@ namespace Homework8.Models
             context.Pets.Add(
                 new Pet()
                 {
-                    //Picture = @"<img src = Url.Content("~/ Content / Images / Labrador.jpg") alt = "Labrador Retriever" height = "100" width = "100" />",
+                    //Picture
                     Breed = "Labrador Retriever",
                     Price = 200,
                     DateRecieved = DateTime.Today,
